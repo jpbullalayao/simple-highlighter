@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Text Highlighter",
+  "version": "1.1",
+  "description": "Highlight text on webpages with smart color contrast and deletion",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
